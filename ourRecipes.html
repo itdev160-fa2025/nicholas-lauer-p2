@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Digitize Your Recipe</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="recipe, recipes, convert, publish, transfer">
+    <meta name="description" content="Turn handwritten recipes into sharable, digital versions">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/demostyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Outfit:wght@100..900&family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <main>
+       <header>
+            <h1>Recipes We Love</h1>
+        </header>
+        <nav class="topnav" id="myTopnav">
+            <a href="index.html">HOME</a>
+            <a href="ourRecipes.html">OUR RECIPES</a>
+            <a href="create.html">CREATE RECIPE</a>
+        </nav>
+
+        <div class="container">
+            <h2><u>Check Out Some of Our Favorite Recipes!</u></h2>
+
+                        <!-- Display Mock Recipe 1-->
+            <div class="flexRow">
+                <div class="flexColumn">
+                    <div id="recipe-1" class="recipe">
+                        <h2 id="recipe-1-name"></h2>
+                        <p id="recipe-1-description"></p>
+                        <p>Rating: <span id="recipe-1-stars-count"></span>/5 Stars</p>
+                        <h3>Ingredients:</h3>
+                        <ul id="recipe-1-ingredientslist"></ul>
+                        <h3>Steps:</h3>
+                        <ol id="recipe-1-recipesteps"></ol>
+
+                        <div class="flexColumn">
+                            <img src="images/spaghetti.png" alt="Spaghetti">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Display Mock Recipe 2-->
+            <div class="flexRow">
+                <div class="flexColumn">
+                    <div id="recipe-2" class="recipe">
+                        <h2 id="recipe-2-name"></h2>
+                        <p id="recipe-2-description"></p>
+                        <p>Rating: <span id="recipe-2-stars-count"></span>/5 Stars</p>
+                        <h3>Ingredients:</h3>
+                        <ul id="recipe-2-ingredientslist"></ul>
+                        <h3>Steps:</h3>
+                        <ol id="recipe-2-recipesteps"></ol>
+
+                        <div class="flexColumn">
+                            <img src="images/grilledcheese.png" alt="Grilled Cheese">
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Nicholas Lauer: Project 2 <text id="date"></text></p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+    <script src="js/demoscripts.js"></script>
+</body>
+
+</html>
